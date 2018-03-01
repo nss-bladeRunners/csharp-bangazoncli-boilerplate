@@ -1,0 +1,13 @@
+# This file tells Travis CI the language, version, and scripts to run.
+# 1. Team lead should log into https://travis-ci.org/ with your github account
+# 2. Activate the repo you'd like to start 
+# 3. Push up some code and see the tests run
+# 4. When you're ready to test with a database, in the Travis CI settings add an environment variable with the same key as the env variable you're using and a value with ./<filename>.db
+
+
+language: csharp
+mono: none
+dotnet: 2.1.3 # Change to the version of dotnet core you're using
+script:
+  - dotnet restore test/Bangazon.Tests # Path to the test folder
+  - dotnet test test/Bangazon.Tests/Bangazon.Tests.csproj # Path to the csproj in the test folder
