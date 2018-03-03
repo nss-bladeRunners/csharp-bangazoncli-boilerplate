@@ -31,5 +31,8 @@ In this group project, you will be allowing a user to interact with a basic prod
 
 You will create a series of prompts that will allow the user to create various types of data in your ordering system.
 
-1. Start with writing unit tests. As a group, determine the core functionality of the application. Define classes and methods that you think you need to build. Do that before writing the implementation code for core logic. DO NOT WRITE TESTS FOR THE USER INTERFACE (menu and prompts).
-1. All classes and methods must be fully documented.
+Using Scrum, we will iterate through the backlog of tickets in order to create a console app that accomplishes our business objectives.  The backlog is not prioritized, and may need to be groomed in order to make tickets more workable.  This should be done prior to planning.  All coworkers should have commits, though its fine to work together on initial project set up.
+
+For this project we will be using Feature Branches.  Each ticket should have its own branch named after the ticket.  All branches will be merged into Master after a pull request has been reviewed by a team member who was not assigned to the ticket.
+
+Before beginning this project you will select a scrum master.  This person will be responsible for running the ceremonies for the length of this project.
